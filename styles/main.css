@@ -1,7 +1,13 @@
 
- 
-body{
-   background-color:blueviolet;
+  
+body{ 
+   background-color:#4b8a85;
+   text-align: center ;
  }
-
- 
+h1{
+  color:aliceblue;
+}
+ li {color: aqua;}
+  ul{text-align: left;}
+  h2{text-align:right;
+  }
