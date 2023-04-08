@@ -1,13 +1,25 @@
 
   
 body{ 
-   background-color:#4b8a85;
+   background-color:#363636;
    text-align: center ;
  }
 h1{
-  color:aliceblue;
+  color:rgb(177, 211, 241);
+  border-color:aqua;
+  border: 5px;;
+  padding: 5px 15px 15px 15px;
 }
  li {color: aqua;}
-  ul{text-align: left;}
+  ul{text-align:left;}
   h2{text-align:right;
+    color:blueviolet
   }
+  
+  .blue-text{
+    color:rgb(121, 121, 221);
+  }
+  #monkeys{
+    color:rgb(92, 68, 24);
+    text-align: right;
+  } 
