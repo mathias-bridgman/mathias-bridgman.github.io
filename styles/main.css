@@ -3,6 +3,10 @@
 body{ 
    background-color:#363636;
    text-align: center ;
+   border-style:dotted;
+   border-left: 2.5%;
+   border-right: 2.5%;
+   border-color:aliceblue;
  }
 h1{
   color:rgb(177, 211, 241);
@@ -18,7 +22,7 @@ border-color: blueviolet;
 }
   ul{text-align:left;
   position:relative;
-top:100px;
+top:50px;
 right: 5%;}
     #image{
       position:relative;
@@ -41,3 +45,7 @@ top: 10px;
     border-width: 15px;
     border-color: rgb(251, 13, 187);}
     span{color:red; }
+body{
+  display:flex;
+  flex:1;
+}
