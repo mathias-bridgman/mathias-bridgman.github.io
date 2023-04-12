@@ -3,6 +3,12 @@
     width: 600px;
   }
 }
+@media (max-width: 505px) {
+  #monkeys {
+    flex-wrap: wrap;
+    columns: 2;
+  }
+}
 
 body {
   background-color: #363636;
