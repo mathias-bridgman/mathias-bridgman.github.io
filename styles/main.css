@@ -42,8 +42,9 @@ ul {
   margin: auto;
   padding: 100px;
 }
-#image {
+img {
   margin-bottom: 30px;
+  width: 40%;
 }
 
 .blue-text {
