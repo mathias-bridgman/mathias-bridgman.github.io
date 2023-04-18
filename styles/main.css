@@ -9,6 +9,9 @@
     columns: 2;
     min-width: auto;
   }
+  body img {
+    width: 80%;
+  }
 }
 
 body {
@@ -69,5 +72,15 @@ img {
   margin: auto;
 }
 span {
+  color: red;
+}
+p {
+  padding: 10%;
+  text-align: left;
+}
+code {
+  background-color: aliceblue;
+}
+.red {
   color: red;
 }
