@@ -52,6 +52,7 @@ img {
 
 .blue-text {
   color: rgb(121, 121, 221);
+  text-align: center;
 }
 #monkeys {
   color: rgb(249, 247, 244);
