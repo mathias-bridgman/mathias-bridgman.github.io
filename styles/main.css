@@ -2,6 +2,12 @@
   div > ul {
     width: 600px;
   }
+  p {
+    padding: 50px;
+  }
+  body img {
+    max-width: 100%;
+  }
 }
 @media (max-width: 505px) {
   #monkeys {
@@ -10,7 +16,7 @@
     min-width: auto;
   }
   body img {
-    width: 80%;
+    max-width: 80%;
   }
 }
 
@@ -43,22 +49,19 @@ ul {
   /* right: 5%; */
   margin-top: 20px;
   margin: auto;
-  padding: 100px;
+  padding: 40px;
 }
 img {
   margin-bottom: 30px;
-  width: 40%;
+  max-width: 40%;
 }
 
-.blue-text {
-  color: rgb(121, 121, 221);
-  text-align: center;
-}
 #monkeys {
   color: rgb(249, 247, 244);
   margin-top: 100px;
   margin: auto;
   display: flex;
+  flex-wrap: wrap;
 }
 
 #blog-link {
@@ -71,6 +74,7 @@ img {
   border-width: 15px;
   border-color: rgb(250, 13, 187);
   margin: auto;
+  width: 250px;
 }
 span {
   color: red;
@@ -78,6 +82,10 @@ span {
 p {
   padding: 10%;
   text-align: left;
+}
+.blue-text {
+  color: rgb(121, 121, 221);
+  text-align: center;
 }
 code {
   background-color: aliceblue;
